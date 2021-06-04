@@ -40,7 +40,7 @@ function ShoutOutForm({onSubmit}:Props) {
                 <input id="ShoutOutForm_message" value={message} onChange={e => messageSet(e.target.value)} required />
             </p>
             <p>
-                <button type="submit">Submit</button>
+                <button type="submit">Send a shout!</button>
             </p>
         </form>
     )
