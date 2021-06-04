@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ShoutOut from "../model/ShoutOut";
-import { createShoutOut, deleteShoutOut, readAllShoutOuts } from "../service/ShoutOutApi";
+import { createShoutOut, readAllShoutOuts } from "../service/ShoutOutApi";
 import ShoutOutCard from "./ShoutCard";
 import ShoutOutForm from "./ShoutOutForm";
 
