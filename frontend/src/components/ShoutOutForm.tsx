@@ -36,11 +36,11 @@ function ShoutOutForm({onSubmit}:Props) {
                 <input id="ShoutOutForm_from" value={from} onChange={e => fromSet(e.target.value)} required />
             </p>
             <p>
-                <label htmlFor="ShoutOutForm_message">Shout Out:</label>
+                <label htmlFor="ShoutOutForm_message">Message:</label>
                 <input id="ShoutOutForm_message" value={message} onChange={e => messageSet(e.target.value)} required />
             </p>
             <p>
-                <button type="submit">SHOUT IT OUT!</button>
+                <button type="submit">Submit</button>
             </p>
         </form>
     )
